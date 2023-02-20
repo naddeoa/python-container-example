@@ -33,7 +33,7 @@ schema = DeclarativeSchema([ResolverSpec(column_name="embeddings", metrics=[Metr
 
 # Export a dictionary of dataset id to DatasetSchemas for the container to use
 schemas: Dict[str, DatasetOptions] = {
-    'model-14': DatasetOptions(
+    'model-17': DatasetOptions(
         schema=schema,
         dataset_cadence=DatasetCadence.HOURLY,
         whylabs_upload_cadence=DatasetUploadCadence(
