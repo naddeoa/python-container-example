@@ -13,7 +13,7 @@ import os.path as path
 # Parse the embeddings file
 embeddings = []
 dir = path.dirname(path.abspath(__file__))
-with open(f'{dir}/glove.6B.100d.txt', 'r') as f:
+with open(f'{dir}/glove.6B.50d.txt', 'r') as f:
     for line in f.readlines():
         split = line.split(' ')
         split.pop(0)
@@ -33,7 +33,7 @@ schema = DeclarativeSchema([ResolverSpec(column_name="embeddings", metrics=[Metr
 
 # Export a dictionary of dataset id to DatasetSchemas for the container to use
 schemas: Dict[str, DatasetOptions] = {
-    'model-17': DatasetOptions(
+    'model-18': DatasetOptions(
         schema=schema,
         dataset_cadence=DatasetCadence.HOURLY,
         whylabs_upload_cadence=DatasetUploadCadence(
