@@ -8,13 +8,14 @@ packages = [{include = "python_whylogs_container_demo"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-whylogs = "^1.1.26"
+whylogs = {extras = ["embeddings"], version = "^1.1.28"}
 whylabs-toolkit = {path = "/home/anthony/workspace/whylabs-toolkit/dist/whylabs_toolkit-0.0.1-py3-none-any.whl"}
 
 
 [tool.poetry.group.dev.dependencies]
 autoflake = "^2.0.1"
 mypy = "^1.0.1"
+black = "^23.1.0"
 
 [build-system]
 requires = ["poetry-core"]
