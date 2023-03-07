@@ -8,7 +8,7 @@ packages = [{include = "python_whylogs_container_demo"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-whylogs = {extras = ["embeddings"], version = "^1.1.28"}
+whylogs = {version = "1.1.29.dev3", extras = ["embeddings", "whlabs"]}
 whylabs-toolkit = {path = "/home/anthony/workspace/whylabs-toolkit/dist/whylabs_toolkit-0.0.1-py3-none-any.whl"}
 
 

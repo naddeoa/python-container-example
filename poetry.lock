@@ -260,7 +260,7 @@ url = "../whylabs-toolkit/dist/whylabs_toolkit-0.0.1-py3-none-any.whl"
 
 [[package]]
 name = "whylogs"
-version = "1.1.28"
+version = "1.1.29.dev3"
 description = "Profile and monitor your ML data pipeline end-to-end"
 category = "main"
 optional = false
@@ -296,7 +296,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "4adadd3c4cf5de0bb8b1039f11436d4f8a018460df878813b92717b28d7ce6e3"
+content-hash = "da04a4a8ce11a744db3197c1c8dbde1bd2d47108f238360a74285ef8cdfb7ce3"
 
 [metadata.files]
 autoflake = [
@@ -513,8 +513,8 @@ whylabs-toolkit = [
     {file = "whylabs_toolkit-0.0.1-py3-none-any.whl", hash = "sha256:7a0182983dbd5eb9bda85068bce8f64e50e4c726fa273271a981a5ce3f3f5a40"},
 ]
 whylogs = [
-    {file = "whylogs-1.1.28-py3-none-any.whl", hash = "sha256:d08150c094a69503ceef0087c2376d349788a96dfe3fe2cbabb8c2d5772fb565"},
-    {file = "whylogs-1.1.28.tar.gz", hash = "sha256:bc24034dfed365890f26677efd7533fd69818e9c5d5e6a43d9a1d3c2f30d1838"},
+    {file = "whylogs-1.1.29.dev3-py3-none-any.whl", hash = "sha256:95d25064ef8a4b6638bfba80061c99642637d4a3457ab8552ecc905b573c4df0"},
+    {file = "whylogs-1.1.29.dev3.tar.gz", hash = "sha256:649d1017f25a50249ef579472d7844a97b7275b7dcf180c7ba3f783e020dfb97"},
 ]
 whylogs-sketching = [
     {file = "whylogs-sketching-3.4.1.dev3.tar.gz", hash = "sha256:40b90eb9d5e4cbbfa63f6a1f3a3332b72258d270044b79030dc5d720fddd9499"},
