@@ -17,6 +17,8 @@ whylogs = {version = "1.1.30", extras = ["embeddings", "whlabs"]}
 autoflake = "^2.0.1"
 mypy = "^1.0.1"
 black = "^23.1.0"
+requests = "^2.28.2"
+types-requests = "^2.28.11.15"
 
 [build-system]
 requires = ["poetry-core"]

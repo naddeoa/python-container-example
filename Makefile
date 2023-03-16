@@ -2,10 +2,10 @@
 all: build run
 
 build:
-	docker build . -t my-whylogs-contianer
+	docker build . -t my-whylogs-container
 
 run:
-	docker run -it --net=host --env-file local.env my-whylogs-contianer
+	docker run -it --net=host --env-file local.env my-whylogs-container
 
 
 pyspy: ## Run profiler on the dev server
