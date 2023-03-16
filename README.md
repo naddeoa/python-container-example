@@ -107,7 +107,7 @@ If the container is configured to use a password then you'll have to send a spec
 ## Calling
 
 ### Directly via HTTP
-There isn't a published client yet (coming soon), so requests can be made via http calls using the `requests` module. See examples folder for a calling example. There are examples for logging normal tabular data as well as embeddings, which require custom configuration.
+There isn't a published client yet (coming soon), so requests can be made via http calls using the `requests` module. See examples folder for a calling example. There are [examples](/examples) for logging [normal tabular](examples/log.py) data as well as [embeddings](examples/embeddings-log.py), which require custom configuration.
 
 ### Google Pub\Sub
 The container has a special endpoint that takes requests forwarded from Google pub\sub: `/log-pubsub` and `/log-pubsub-embeddings`. You'll send the same payloads that you would send to the container directly, except you'll send them to pub\sub and they'll be forwarded instead. Don't do any extra escaping on your json data. 
