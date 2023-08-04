@@ -66,18 +66,19 @@ WHYLABS_ORG_ID=org-0
 # An api key from the org above
 WHYLABS_API_KEY=xxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
+# One of these two must be set
+# Sets the container password to `password`. See the auth section for details
+CONTAINER_PASSWORD=password
+# If you don't care about password protecting the container then you can set this to True.
+DISABLE_CONTAINER_PASSWORD=True
+
+
 ##
 ## OPTIONAL CONFIG
 ##
 
 # Safeguard if you're using custom configuration to guarantee the container is correctly built to use it.
 FAIL_STARTUP_WITHOUT_CONFIG=True
-
-# If you don't care about password protecting the container then you can set this to True.
-DISABLE_CONTAINER_PASSWORD=True
-
-# Sets the container password to `password`. See the auth section for details
-CONTAINER_PASSWORD=password
 
 # The default dataset type to use between HOURLY and DAILY. This determines how data is grouped up into
 # profiles before being uploaded. You need to make sure this matches what you configured the dataset as

@@ -1,6 +1,9 @@
+# TODO: Setup dataset schema with langkit metrics
+# Example config usage below:
+
 from whylogs.core.resolvers import MetricSpec, ResolverSpec
 import numpy as np
-from whylogs.core.schema import DeclarativeSchema, DatasetSchema
+from whylogs.core.schema import DeclarativeSchema
 from typing import Dict
 from whylabs_toolkit.container.config_types import DatasetCadence, DatasetOptions, DatasetUploadCadence, DatasetUploadCadenceGranularity
 from whylogs.experimental.extras.embedding_metric import (
